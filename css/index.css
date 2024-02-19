@@ -1,1 +1,13 @@
-/*# sourceMappingURL=index.css.map */
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  font-size: 16px;
+}/*# sourceMappingURL=index.css.map */
