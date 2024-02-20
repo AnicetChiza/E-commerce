@@ -1,3 +1,4 @@
+/********* RESET *********/
 *,
 ::before,
 ::after {
@@ -7,7 +8,16 @@
   box-sizing: border-box;
 }
 
+/********* BODY SECTION *********/
 body {
   width: 100%;
   font-size: 16px;
-}/*# sourceMappingURL=index.css.map */
+}
+
+/******** COLORS ********/
+:root {
+  --whiteColor: #fff;
+  --bblackColor: #000;
+}
+
+/******** POLICES ********//*# sourceMappingURL=index.css.map */
