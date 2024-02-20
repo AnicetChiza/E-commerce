@@ -3,8 +3,6 @@
   --whiteColor: #fff;
   --blackColor: #000;
   --grayColor: #d4d1d7;
-  --greenColor: #245741;
-  /*--greenColor: #26a69a;*/
   --goldenColor: #e6e5e0;
   --gold: #dbbb5f;
   --blueColor: #205f9b;
@@ -30,13 +28,24 @@ header img {
 header nav ul {
   display: flex;
   flex-direction: row;
+  align-items: center;
   gap: 25px;
   -webkit-column-gap: 25px;
 }
 
 header nav ul a {
-  font-weight: bolder;
   color: var(--blueColor);
+}
+
+header nav ul a i {
+  padding: 10px 11px;
+  border-radius: 100%;
+  color: var(--whiteColor);
+  background-color: var(--orange);
+}
+
+header nav ul .home {
+  border-bottom: 2px solid var(--orange);
 }
 
 /********* RESET *********/
