@@ -7,6 +7,7 @@
   /*--greenColor: #26a69a;*/
   --goldenColor: #e6e5e0;
   --gold: #dbbb5f;
+  --blueColor: #056c89;
 }
 
 /******** POLICES ********/
@@ -18,7 +19,7 @@ header {
   padding: 10px 100px;
   justify-content: space-between;
   background-color: var(--grayColor);
-  border: 1px solid red;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.09);
 }
 
 header img {
@@ -30,6 +31,11 @@ header nav ul {
   flex-direction: row;
   gap: 25px;
   -webkit-column-gap: 25px;
+}
+
+header nav ul a {
+  font-weight: bolder;
+  color: var(--blueColor);
 }
 
 /********* RESET *********/
