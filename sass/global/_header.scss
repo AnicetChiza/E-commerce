@@ -1,0 +1,24 @@
+@use '../utils/' as u;
+
+/******** HEADER ********/
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 100px;
+    justify-content: space-between;
+    background-color: var(--grayColor);
+    border: 1px solid red;
+}
+
+header img {
+    width: 6rem;
+}
+
+header nav ul {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    -webkit-column-gap: 25px;
+}

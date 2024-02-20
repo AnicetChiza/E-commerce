@@ -1,9 +1,44 @@
+/******** COLORS ********/
+:root {
+  --whiteColor: #fff;
+  --blackColor: #000;
+  --grayColor: #d4d1d7;
+  --greenColor: #245741;
+  /*--greenColor: #26a69a;*/
+  --goldenColor: #e6e5e0;
+  --gold: #dbbb5f;
+}
+
+/******** POLICES ********/
+/******** HEADER ********/
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px 100px;
+  justify-content: space-between;
+  background-color: var(--grayColor);
+  border: 1px solid red;
+}
+
+header img {
+  width: 6rem;
+}
+
+header nav ul {
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+  -webkit-column-gap: 25px;
+}
+
 /********* RESET *********/
 *,
 ::before,
 ::after {
   margin: 0;
   padding: 0;
+  list-style-type: none;
   text-decoration: none;
   box-sizing: border-box;
 }
@@ -11,13 +46,6 @@
 /********* BODY SECTION *********/
 body {
   width: 100%;
-  font-size: 16px;
-}
-
-/******** COLORS ********/
-:root {
-  --whiteColor: #fff;
-  --bblackColor: #000;
-}
-
-/******** POLICES ********//*# sourceMappingURL=index.css.map */
+  font-family: "Lora", serif;
+  background-color: var(--grayColor);
+}/*# sourceMappingURL=index.css.map */
