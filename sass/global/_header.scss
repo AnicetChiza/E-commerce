@@ -24,11 +24,11 @@ header nav ul {
     -webkit-column-gap: 25px;
 }
 
-header nav ul a {
+header nav ul li a {
     color: var(--blueColor);
 }
 
-header nav ul li:hover {
+header nav ul li a:hover {
     border-bottom: 2px solid var(--orange);
 }
 
