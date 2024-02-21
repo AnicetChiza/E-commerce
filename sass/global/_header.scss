@@ -28,6 +28,10 @@ header nav ul a {
     color: var(--blueColor);
 }
 
+header nav ul li:hover {
+    border-bottom: 2px solid var(--orange);
+}
+
 header nav ul a i {
     padding: 10px 11px;
     border-radius: 100%;
