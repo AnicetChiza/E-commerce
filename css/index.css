@@ -33,8 +33,12 @@ header nav ul {
   -webkit-column-gap: 25px;
 }
 
-header nav ul a {
+header nav ul li a {
   color: var(--blueColor);
+}
+
+header nav ul a:hover {
+  color: var(--orange);
 }
 
 header nav ul a i {
@@ -44,7 +48,7 @@ header nav ul a i {
   background-color: var(--orange);
 }
 
-header nav ul .home {
+header nav ul li .home {
   border-bottom: 2px solid var(--orange);
 }
 
