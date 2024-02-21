@@ -29,16 +29,14 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-    border-bottom: 2px solid var(--orange);
+    color: var(--orange);
 }
 
-header nav ul a i {
+header nav ul li a i {
     padding: 10px 11px;
     border-radius: 100%;
     color: var(--whiteColor);
     background-color: var(--orange);
 }
 
-header nav ul .home {
-    border-bottom: 2px solid var(--orange);
-}
+header nav ul li .home {}
