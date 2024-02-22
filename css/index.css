@@ -41,7 +41,8 @@ header nav ul li a {
 }
 
 header nav ul a:hover {
-  transition: 0.5s;
+  transition: 0.8s;
+  transition-delay: 0.2s;
   color: var(--orange);
 }
 
@@ -68,10 +69,10 @@ main .home-page {
   align-items: center;
 }
 main .home-page h3 {
-  font-size: 25px;
+  font-size: 30px;
 }
 main .home-page h2 {
-  font-size: 30px;
+  font-size: 35px;
   color: var(--blueColor);
 }
 
@@ -97,13 +98,13 @@ body {
 .home-page button {
   border: none;
   margin-top: 10px;
-  font-weight: 500;
+  font-weight: 700;
   cursor: pointer;
-  padding: 10px 20px;
+  padding: 12px 30px;
   width: fit-content;
   font-family: "Lora", serif;
   color: var(--whiteColor);
-  /*background-repeat: no-repeat;
-  background-position: center;
-  background-image: url('../../images/home-page/button-bg.png');*/
+  outline: none;
+  border-radius: 10px;
+  background-color: var(--blueColor);
 }/*# sourceMappingURL=index.css.map */

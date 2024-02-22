@@ -32,7 +32,8 @@ header nav ul li a {
 }
 
 header nav ul a:hover {
-    transition: 0.5s;
+    transition: 0.8s;
+    transition-delay: 0.2s;
     color: var(--orange);
 }
 
