@@ -91,4 +91,12 @@ body {
   width: 100%;
   font-family: "Lora", serif;
   background-color: var(--grayColor);
+}
+
+/********* HOME PAGE BUTTON *********/
+.home-page button {
+  border: none;
+  background-color: unset;
+  color: var(--whiteColor);
+  background-image: url("../../images/home-page/button-bg.png");
 }/*# sourceMappingURL=index.css.map */
