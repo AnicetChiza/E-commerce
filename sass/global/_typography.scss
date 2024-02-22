@@ -28,11 +28,12 @@ body {
     border: none;
     margin-top: 10px;
     font-weight: 500;
-    background: unset;
+    cursor: pointer;
     padding: 10px 20px;
-    //width: fit-content;
+    width: fit-content;
     font-family: u.$font;
     color: var(--whiteColor);
+    /*background-repeat: no-repeat;
     background-position: center;
-    background-image: url('../../images/home-page/button-bg.png');
+    background-image: url('../../images/home-page/button-bg.png');*/
 }
