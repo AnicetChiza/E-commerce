@@ -96,7 +96,12 @@ body {
 /********* HOME PAGE BUTTON *********/
 .home-page button {
   border: none;
-  background-color: unset;
+  margin-top: 10px;
+  font-weight: 500;
+  background: unset;
+  padding: 10px 20px;
+  font-family: "Lora", serif;
   color: var(--whiteColor);
+  background-position: center;
   background-image: url("../../images/home-page/button-bg.png");
 }/*# sourceMappingURL=index.css.map */
