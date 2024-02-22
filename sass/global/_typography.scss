@@ -25,15 +25,21 @@ body {
 /********* HOME PAGE BUTTON *********/
 
 .home-page button {
-    border: none;
-    margin-top: 10px;
+    margin-top: 30px;
     font-weight: 700;
     cursor: pointer;
     padding: 12px 30px;
     width: fit-content;
     font-family: u.$font;
-    color: var(--whiteColor);
+    color: var(--blueColor);
     outline: none;
     border-radius: 10px;
-    background-color: var(--blueColor);
+    background: none;
+    border: 2px solid var(--blueColor);
+    &:hover {
+        transition: 0.8s;
+        transition-delay: 0.2s;
+        color: var(--whiteColor);
+        background-color: var(--blueColor);
+    }
 }
