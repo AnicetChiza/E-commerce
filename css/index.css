@@ -76,6 +76,20 @@ main .home-page h2 {
   font-size: 35px;
   color: var(--blueColor);
 }
+main .home-page .vetement {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+main .home-page .vetement .first-image {
+  width: 60%;
+  margin-top: 120px;
+}
+main .home-page .vetement .second-image {
+  width: 70%;
+  margin-top: -120px;
+  filter: blur(8px);
+}
 
 /********* RESET *********/
 *,

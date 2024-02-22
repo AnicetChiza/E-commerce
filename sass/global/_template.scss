@@ -19,4 +19,18 @@ main .home-page {
         font-size: 35px;
         color: var(--blueColor);
     }
+    .vetement {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .vetement .first-image {
+        width: 60%;
+        margin-top: 120px;
+    }
+    .vetement .second-image {
+        width: 70%;
+        margin-top: -120px;
+        filter: blur(8px);
+    }
 }
