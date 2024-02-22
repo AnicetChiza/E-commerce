@@ -27,6 +27,16 @@ main .home-page {
     .vetement .first-image {
         width: 60%;
         margin-top: 120px;
+        animation-delay: 0.8s;
+        animation: animated 5s linear infinite;
+        @keyframes animated {
+            0% {
+                transform: translateY(-10px);
+            }
+            50% {
+                transform: translateY(50px);
+            }
+        }
     }
     .vetement .second-image {
         width: 70%;
