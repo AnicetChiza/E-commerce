@@ -143,6 +143,9 @@ main .home-page .vetement .second-image {
 .featured-product .product .prod-content .prod {
   margin-top: 10px;
 }
+.featured-product .product .prod-content .prod span {
+  opacity: 0.4;
+}
 
 /********* RESET *********/
 *,
@@ -197,4 +200,9 @@ body {
   transition-delay: 0.2s;
   color: var(--whiteColor);
   background-color: var(--blueColor);
+}
+
+/********* FEATURED PRODUCTS *********/
+.prod-icons i {
+  color: var(--gold);
 }/*# sourceMappingURL=index.css.map */
