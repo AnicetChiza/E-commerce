@@ -127,6 +127,9 @@ main .home-page .vetement .second-image {
 .featured-product .prod-container span {
   opacity: 0.4;
 }
+.featured-product .product .prod-content img {
+  width: 50px;
+}
 
 /********* RESET *********/
 *,
