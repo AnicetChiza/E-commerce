@@ -335,8 +335,6 @@ body {
   border-radius: 0;
   color: var(--gold);
   border: 2px solid var(--gold);
-}
-.banner-2 button:hover {
   background: none;
   color: var(--whiteColor);
   border: 2px solid var(--gold);
