@@ -205,4 +205,16 @@ body {
 /********* FEATURED PRODUCTS *********/
 .prod-icons i {
   color: var(--gold);
+}
+
+.prod a {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: -30px;
+}
+.prod a i {
+  padding: 10px 11px;
+  border-radius: 50%;
+  color: var(--whiteColor);
+  background-color: var(--blueColor);
 }/*# sourceMappingURL=index.css.map */
