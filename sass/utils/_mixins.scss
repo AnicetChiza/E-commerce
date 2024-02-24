@@ -1,8 +1,22 @@
+/******** BANNER DIV ********/
+
 @mixin banner {
-    //width: fit-content;
     padding: 80px 40px;
     color: var(--whiteColor);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+
+/******** FOR THE BUTTON ********/
+
+@mixin buttons {
+    border: none;
+    outline: none;
+    background: none;
+    font-family: u.$font;
+    font-weight: 700;
+    cursor: pointer;
+    padding: 10px 25px;
 }
