@@ -333,10 +333,12 @@ body {
   padding: 10px 25px;
   margin-top: 20px;
   border-radius: 0;
-  color: var(--gold);
-  border: 2px solid var(--gold);
-  background: none;
   color: var(--whiteColor);
   border: 2px solid var(--gold);
   background-color: var(--gold);
+}
+.banner-2 button:hover {
+  color: var(--gold);
+  border: 2px solid var(--gold);
+  background: none;
 }/*# sourceMappingURL=index.css.map */

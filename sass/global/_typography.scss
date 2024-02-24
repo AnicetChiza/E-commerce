@@ -122,11 +122,12 @@ body {
     @include buttons;
     margin-top: 20px;
     border-radius: 0;
-    color: var(--gold);
-    border: 2px solid var(--gold);
-    background: none;
     color: var(--whiteColor);
     border: 2px solid var(--gold);
     background-color: var(--gold);
-    &:hover {}
+    &:hover {
+        color: var(--gold);
+        border: 2px solid var(--gold);
+        background: none;
+    }
 }
