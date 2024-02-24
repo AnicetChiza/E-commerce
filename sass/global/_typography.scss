@@ -121,7 +121,8 @@ body {
     border-radius: 10px;
     font-weight: 700;
     cursor: pointer;
-    padding: 15px 25px;
+    padding: 10px 25px;
+    margin-top: 20px;
     color: var(--whiteColor);
     background-color: var(--blueColor);
 }
@@ -134,4 +135,8 @@ body {
     border-radius: 10px;
     font-weight: 700;
     cursor: pointer;
+    padding: 10px 25px;
+    margin-top: 20px;
+    color: var(--gold);
+    border: 2px solid var(--gold);
 }
