@@ -26,16 +26,12 @@ body {
 /********* HOME PAGE BUTTON *********/
 
 .home-page button {
+    @include buttons;
     margin-top: 30px;
-    font-weight: 700;
-    cursor: pointer;
     padding: 12px 30px;
     width: fit-content;
-    font-family: u.$font;
     color: var(--blueColor);
-    outline: none;
     border-radius: 10px;
-    background: none;
     border: 2px solid var(--blueColor);
     &:hover {
         transition: 0.8s;
@@ -114,6 +110,12 @@ body {
     border-radius: 0;
     color: var(--whiteColor);
     background-color: var(--blueColor);
+    border: 2px solid var(--blueColor);
+    &:hover {
+        color: var(--whiteColor);
+        background: none;
+        border: 2px solid var(--whiteColor);
+    }
 }
 
 .banner-2 button {
@@ -122,4 +124,10 @@ body {
     border-radius: 0;
     color: var(--gold);
     border: 2px solid var(--gold);
+    &:hover {
+        background: none;
+        color: var(--whiteColor);
+        border: 2px solid var(--gold);
+        background-color: var(--gold);
+    }
 }
