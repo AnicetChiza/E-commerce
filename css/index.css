@@ -142,6 +142,9 @@ main .home-page .vetement .second-image {
   padding: 20px;
   border: 1px solid var(--gray);
 }
+.featured-product .product:hover {
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
+}
 .featured-product .product .prod-content .prod-image {
   width: 280px;
   margin: auto;
@@ -153,6 +156,9 @@ main .home-page .vetement .second-image {
 }
 .featured-product .product .prod-content .prod span {
   opacity: 0.4;
+}
+.featured-product .product .prod-content .prod h5 {
+  color: var(--blueColor);
 }
 
 /********* RESET *********/
@@ -213,6 +219,7 @@ body {
 /********* FEATURED PRODUCTS *********/
 .prod-icons i {
   color: var(--gold);
+  font-size: 14px;
 }
 
 .prod a {
