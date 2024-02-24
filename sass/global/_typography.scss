@@ -1,4 +1,5 @@
-@use '../utils/variables' as u;
+@use '../utils/' as u;
+@use '../utils/mixins' as *;
 
 /********* RESET *********/
 
