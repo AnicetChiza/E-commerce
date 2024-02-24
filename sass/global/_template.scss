@@ -76,9 +76,20 @@ main .home-page {
         }
     }
     .product {
+        width: fit-content;
+        margin-top: 15px;
+        border-radius: 10px;
+        padding: 20px;
+        border: 1px solid var(--gray);
         .prod-content {
-            img {
-                width: 50px;
+            .prod-image {
+                width: 300px;
+                margin: auto;
+                border-radius: 10px;
+                background-color: var(--gray);
+            }
+            .prod {
+                margin-top: 10px;
             }
         }
     }
