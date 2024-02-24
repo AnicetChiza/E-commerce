@@ -116,11 +116,19 @@ main .home-page .vetement .second-image {
 }
 
 /********* FEATURED PRODUCTS *********/
+.featured-product {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.featured-product .all-div {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 10px;
+}
 .featured-product .prod-container {
   text-align: center;
 }
 .featured-product .prod-container h2 {
-  margin-top: 20px;
   margin-bottom: 10px;
   color: var(--blueColor);
 }
@@ -135,7 +143,7 @@ main .home-page .vetement .second-image {
   border: 1px solid var(--gray);
 }
 .featured-product .product .prod-content .prod-image {
-  width: 300px;
+  width: 280px;
   margin: auto;
   border-radius: 10px;
   background-color: var(--gray);

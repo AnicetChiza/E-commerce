@@ -64,10 +64,16 @@ main .home-page {
 /********* FEATURED PRODUCTS *********/
 
 .featured-product {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    .all-div {
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        gap: 10px;
+    }
     .prod-container {
         text-align: center;
         h2 {
-            margin-top: 20px;
             margin-bottom: 10px;
             color: var(--blueColor);
         }
@@ -83,7 +89,7 @@ main .home-page {
         border: 1px solid var(--gray);
         .prod-content {
             .prod-image {
-                width: 300px;
+                width: 280px;
                 margin: auto;
                 border-radius: 10px;
                 background-color: var(--gray);
