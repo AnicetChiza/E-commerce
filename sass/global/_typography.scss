@@ -93,5 +93,20 @@ body {
     button {
         border: none;
         outline: none;
+        background: none;
+        font-family: u.$font;
+        color: var(--gold);
+        padding: 15px 25px;
+        border-radius: 10px;
+        font-weight: 700;
+        cursor: pointer;
+        border: 2px solid var(--gold);
+        &:hover {
+            transition: 0.5;
+            transition-delay: 0.2s;
+            color: var(--whiteColor);
+            background-color: var(--gold);
+            border: 2px solid var(--whiteColor);
+        }
     }
 }

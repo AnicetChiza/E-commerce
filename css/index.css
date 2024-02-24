@@ -257,4 +257,19 @@ body {
 .arrivals button {
   border: none;
   outline: none;
+  background: none;
+  font-family: "Lora", serif;
+  color: var(--gold);
+  padding: 15px 25px;
+  border-radius: 10px;
+  font-weight: 700;
+  cursor: pointer;
+  border: 2px solid var(--gold);
+}
+.arrivals button:hover {
+  transition: 0.5;
+  transition-delay: 0.2s;
+  color: var(--whiteColor);
+  background-color: var(--gold);
+  border: 2px solid var(--whiteColor);
 }/*# sourceMappingURL=index.css.map */
