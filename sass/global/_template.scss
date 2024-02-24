@@ -109,3 +109,24 @@ main .home-page {
         }
     }
 }
+
+
+/********* NEW ARRIVALS *********/
+
+.arrivals {
+    text-align: center;
+    background-size: cover;
+    padding: 50px;
+    color: var(--whiteColor);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url('../../images/products/bg.jpg');
+    h1 {
+        font-size: 30px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        span {
+            color: var(--gold);
+        }
+    }
+}

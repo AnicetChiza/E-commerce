@@ -161,6 +161,25 @@ main .home-page .vetement .second-image {
   color: var(--blueColor);
 }
 
+/********* NEW ARRIVALS *********/
+.arrivals {
+  text-align: center;
+  background-size: cover;
+  padding: 50px;
+  color: var(--whiteColor);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("../../images/products/bg.jpg");
+}
+.arrivals h1 {
+  font-size: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.arrivals h1 span {
+  color: var(--gold);
+}
+
 /********* RESET *********/
 *,
 ::before,
@@ -232,4 +251,10 @@ body {
   border-radius: 50%;
   color: var(--whiteColor);
   background-color: var(--blueColor);
+}
+
+/********* NEW ARRIVALS *********/
+.arrivals button {
+  border: none;
+  outline: none;
 }/*# sourceMappingURL=index.css.map */
