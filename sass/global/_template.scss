@@ -59,3 +59,20 @@ main .home-page {
     padding: 20px;
     background-color: var(--gray);
 }
+
+
+/********* FEATURED PRODUCTS *********/
+
+.featured-product {
+    .prod-container {
+        text-align: center;
+        h2 {
+            margin-top: 20px;
+            margin-bottom: 10px;
+            color: var(--blueColor);
+        }
+        span {
+            opacity: 0.4;
+        }
+    }
+}

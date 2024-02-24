@@ -115,6 +115,19 @@ main .home-page .vetement .second-image {
   background-color: var(--gray);
 }
 
+/********* FEATURED PRODUCTS *********/
+.featured-product .prod-container {
+  text-align: center;
+}
+.featured-product .prod-container h2 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: var(--blueColor);
+}
+.featured-product .prod-container span {
+  opacity: 0.4;
+}
+
 /********* RESET *********/
 *,
 ::before,
