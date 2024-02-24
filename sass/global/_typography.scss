@@ -109,3 +109,29 @@ body {
         }
     }
 }
+
+
+/********* BANNER BUTTONS *********/
+
+.banner-1 button {
+    border: none;
+    outline: none;
+    background: none;
+    font-family: u.$font;
+    border-radius: 10px;
+    font-weight: 700;
+    cursor: pointer;
+    padding: 15px 25px;
+    color: var(--whiteColor);
+    background-color: var(--blueColor);
+}
+
+.banner-2 button {
+    border: none;
+    outline: none;
+    background: none;
+    font-family: u.$font;
+    border-radius: 10px;
+    font-weight: 700;
+    cursor: pointer;
+}

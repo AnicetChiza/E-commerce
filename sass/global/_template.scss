@@ -137,6 +137,10 @@ main .home-page {
 /********* BANNER PART *********/
 
 .first-part-banner {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 40px;
+    -webkit-column-gap: 40px;
     .banner-1 {
         @include banner;
         background-image: url('../../images/banner/banner1.jpg');
