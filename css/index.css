@@ -182,6 +182,23 @@ main .home-page .vetement .second-image {
 }
 
 /********* BANNER PART *********/
+.first-part-banner .banner-1 {
+  width: fit-content;
+  padding: 80px 40px;
+  color: var(--whiteColor);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("../../images/banner/banner1.jpg");
+}
+.first-part-banner .banner-2 {
+  width: fit-content;
+  padding: 80px 40px;
+  color: var(--whiteColor);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("../../images/banner/banner2.jpg");
+}
+
 /********* RESET *********/
 *,
 ::before,
