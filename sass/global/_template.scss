@@ -44,3 +44,18 @@ main .home-page {
         filter: blur(8px);
     }
 }
+
+
+/********* ABOUT US DIV *********/
+
+.about-us {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    gap: 80px;
+    -webkit-column-gap: 80px;
+    padding: 20px;
+    background-color: var(--gray);
+}

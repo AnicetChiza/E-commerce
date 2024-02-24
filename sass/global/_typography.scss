@@ -43,3 +43,16 @@ body {
         background-color: var(--blueColor);
     }
 }
+
+
+/********* ABOUT US ICON *********/
+
+.about-us div i {
+    font-size: 25px;
+    padding: 20px 20px;
+    border-radius: 100%;
+    color: var(--whiteColor);
+    background-color: var(--blueColor);
+    border: 2px solid var(--whiteColor);
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5);
+}

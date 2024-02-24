@@ -2,7 +2,8 @@
 :root {
   --whiteColor: #fff;
   --blackColor: #000;
-  --grayColor: #d4d1d7;
+  --grayColor: #eceaeab7;
+  --gray: #dfdfdfee;
   --goldenColor: #e6e5e0;
   --gold: #dbbb5f;
   --blueColor: #205f9b;
@@ -101,6 +102,19 @@ main .home-page .vetement .second-image {
   filter: blur(8px);
 }
 
+/********* ABOUT US DIV *********/
+.about-us {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  text-align: center;
+  justify-content: center;
+  margin: auto;
+  gap: 80px;
+  -webkit-column-gap: 80px;
+  padding: 20px;
+  background-color: var(--gray);
+}
+
 /********* RESET *********/
 *,
 ::before,
@@ -138,4 +152,15 @@ body {
   transition-delay: 0.2s;
   color: var(--whiteColor);
   background-color: var(--blueColor);
+}
+
+/********* ABOUT US ICON *********/
+.about-us div i {
+  font-size: 25px;
+  padding: 20px 20px;
+  border-radius: 100%;
+  color: var(--whiteColor);
+  background-color: var(--blueColor);
+  border: 2px solid var(--whiteColor);
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5);
 }/*# sourceMappingURL=index.css.map */
