@@ -111,11 +111,6 @@ body {
     color: var(--whiteColor);
     background-color: var(--blueColor);
     border: 2px solid var(--blueColor);
-    &:hover {
-        color: var(--whiteColor);
-        background: none;
-        border: 2px solid var(--whiteColor);
-    }
 }
 
 .banner-2 button {

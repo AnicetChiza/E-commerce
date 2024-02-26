@@ -144,6 +144,11 @@ main .home-page {
     .banner-1 {
         @include banner;
         background-image: url('../../images/banner/banner1.jpg');
+        /*&:hover button {
+            color: var(--whiteColor);
+            background: none;
+            border: 2px solid var(--whiteColor);
+        }*/
     }
     .banner-2 {
         @include banner;
