@@ -75,6 +75,9 @@ footer .footer-container h4 {
 footer .footer-container a {
   color: var(--blackColor);
 }
+footer .footer-container span {
+  font-weight: 700;
+}
 footer .footer-container .app div {
   padding: 10px;
   border-radius: 5px;
