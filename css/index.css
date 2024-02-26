@@ -101,6 +101,29 @@ footer .footer-container .app div:hover p {
   transition: 0.5s;
   transition-delay: 0.2s;
 }
+footer .media-sociaux {
+  text-align: center;
+  margin-top: 10px;
+}
+footer .media-sociaux div {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+  justify-content: center;
+}
+footer .media-sociaux div a {
+  font-size: 20px;
+  color: var(--blueColor);
+}
+footer .about-me {
+  text-align: center;
+  margin-top: 10px;
+  color: var(--blackColor);
+  border-top: 1px solid var(--blueColor);
+}
+footer .about-me p {
+  margin-top: 5px;
+}
 
 /******** PADDING FOR ALL THE WEBSITE ********/
 .all-section {

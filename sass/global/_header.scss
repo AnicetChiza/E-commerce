@@ -91,4 +91,27 @@
                     }
                 }
             }
+            .media-sociaux {
+                text-align: center;
+                margin-top: 10px;
+                div {
+                    display: flex;
+                    gap: 10px;
+                    margin-top: 10px;
+                    justify-content: center;
+                    a {
+                        font-size: 20px;
+                        color: var(--blueColor);
+                    }
+                }
+            }
+            .about-me {
+                text-align: center;
+                margin-top: 10px;
+                color: var(--blackColor);
+                border-top: 1px solid var(--blueColor);
+                p {
+                    margin-top: 5px;
+                }
+            }
         }
