@@ -182,3 +182,30 @@ main .home-page {
 
 
 /********* NEWS LETTER *********/
+
+.news-letter {
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-top: 20px;
+    color: var(--whiteColor);
+    background: linear-gradient(to right, #dbbc5fe0 0%, #20609bd8 100%), url(../../images/banner/news-letter.jpg);
+    .news {
+        .news-content {
+            width: fit-content;
+            border-radius: 5px;
+            background-color: var(--whiteColor);
+            input {
+                @include buttons;
+                font-weight: 300;
+            }
+            button {
+                @include buttons;
+                color: var(--whiteColor);
+                border-top-right-radius: 5px;
+                border-bottom-right-radius: 5px;
+                background-color: var(--gold);
+            }
+        }
+    }
+}

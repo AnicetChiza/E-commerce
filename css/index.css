@@ -237,6 +237,43 @@ main .home-page .vetement .second-image {
 }
 
 /********* NEWS LETTER *********/
+.news-letter {
+  width: 100%;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin-top: 20px;
+  color: var(--whiteColor);
+  background: linear-gradient(to right, rgba(219, 188, 95, 0.8784313725) 0%, rgba(32, 96, 155, 0.8470588235) 100%), url(../../images/banner/news-letter.jpg);
+}
+.news-letter .news .news-content {
+  width: fit-content;
+  border-radius: 5px;
+  background-color: var(--whiteColor);
+}
+.news-letter .news .news-content input {
+  border: none;
+  outline: none;
+  background: none;
+  font-family: "Lora", serif;
+  font-weight: 700;
+  cursor: pointer;
+  padding: 10px 25px;
+  font-weight: 300;
+}
+.news-letter .news .news-content button {
+  border: none;
+  outline: none;
+  background: none;
+  font-family: "Lora", serif;
+  font-weight: 700;
+  cursor: pointer;
+  padding: 10px 25px;
+  color: var(--whiteColor);
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  background-color: var(--gold);
+}
+
 /********* RESET *********/
 *,
 ::before,
