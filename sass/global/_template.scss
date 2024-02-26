@@ -189,7 +189,8 @@ main .home-page {
     padding-bottom: 40px;
     margin-top: 20px;
     color: var(--whiteColor);
-    background: linear-gradient(to right, #dbbc5fe0 0%, #20609bd8 100%), url(../../images/banner/news-letter.jpg);
+    background: linear-gradient(to right, #dbbc5fe0 0%, #20609bd8 100%), url(../../images/banner/news-letter.jpg) no-repeat;
+    background-size: cover;
     .news {
         display: flex;
         gap: 10px;
