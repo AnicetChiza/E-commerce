@@ -65,5 +65,12 @@ footer {
         a {
             color: var(--blackColor);
         }
+        .app {
+            div {
+                padding: 10px;
+                border-radius: 5px;
+                border: 2px solid var(--blueColor);
+            }
+        }
     }
 }
