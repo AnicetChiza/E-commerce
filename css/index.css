@@ -245,6 +245,17 @@ main .home-page .vetement .second-image {
   color: var(--whiteColor);
   background: linear-gradient(to right, rgba(219, 188, 95, 0.8784313725) 0%, rgba(32, 96, 155, 0.8470588235) 100%), url(../../images/banner/news-letter.jpg);
 }
+.news-letter .news {
+  display: flex;
+  gap: 10px;
+  -webkit-column-gap: 10px;
+  margin-top: 15px;
+  align-items: center;
+  justify-content: space-between;
+}
+.news-letter .news span {
+  color: var(--blueColor);
+}
 .news-letter .news .news-content {
   width: fit-content;
   border-radius: 5px;

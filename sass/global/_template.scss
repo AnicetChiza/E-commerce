@@ -191,6 +191,15 @@ main .home-page {
     color: var(--whiteColor);
     background: linear-gradient(to right, #dbbc5fe0 0%, #20609bd8 100%), url(../../images/banner/news-letter.jpg);
     .news {
+        display: flex;
+        gap: 10px;
+        -webkit-column-gap: 10px;
+        margin-top: 15px;
+        align-items: center;
+        justify-content: space-between;
+        span {
+            color: var(--blueColor);
+        }
         .news-content {
             width: fit-content;
             border-radius: 5px;
