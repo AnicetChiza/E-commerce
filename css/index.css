@@ -197,11 +197,6 @@ main .home-page .vetement .second-image {
   background-repeat: no-repeat;
   background-size: cover;
   background-image: url("../../images/banner/banner1.jpg");
-  /*&:hover button {
-      color: var(--whiteColor);
-      background: none;
-      border: 2px solid var(--whiteColor);
-  }*/
 }
 .first-part-banner .banner-2 {
   padding: 80px 40px;
@@ -210,6 +205,35 @@ main .home-page .vetement .second-image {
   background-repeat: no-repeat;
   background-size: cover;
   background-image: url("../../images/banner/banner2.jpg");
+}
+
+.second-part-banner {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 10px;
+  -webkit-column-gap: 10px;
+  margin-top: 10px;
+}
+.second-part-banner .banner-box {
+  padding: 100px;
+  text-align: center;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+.second-part-banner .banner-box h3 {
+  color: var(--blueColor);
+}
+.second-part-banner .banner-box p {
+  color: var(--orange);
+}
+.second-part-banner .box1 {
+  background-image: url(../../images/banner/product-sale1.jpg);
+}
+.second-part-banner .box2 {
+  background-image: url(../../images/banner/product-sale2.jpg);
+}
+.second-part-banner .box3 {
+  background-image: url(../../images/banner/product-sale3.jpg);
 }
 
 /********* RESET *********/
@@ -321,6 +345,11 @@ body {
   color: var(--whiteColor);
   background-color: var(--blueColor);
   border: 2px solid var(--blueColor);
+}
+.banner-1 button:hover {
+  color: var(--whiteColor);
+  background: none;
+  border: 2px solid var(--whiteColor);
 }
 
 .banner-2 button {

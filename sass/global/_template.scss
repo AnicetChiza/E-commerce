@@ -144,14 +144,38 @@ main .home-page {
     .banner-1 {
         @include banner;
         background-image: url('../../images/banner/banner1.jpg');
-        /*&:hover button {
-            color: var(--whiteColor);
-            background: none;
-            border: 2px solid var(--whiteColor);
-        }*/
     }
     .banner-2 {
         @include banner;
         background-image: url('../../images/banner/banner2.jpg');
+    }
+}
+
+.second-part-banner {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    -webkit-column-gap: 10px;
+    margin-top: 10px;
+    .banner-box {
+        padding: 100px;
+        text-align: center;
+        background-position: top;
+        background-repeat: no-repeat;
+        h3 {
+            color: var(--blueColor);
+        }
+        p {
+            color: var(--orange);
+        }
+    }
+    .box1 {
+        background-image: url(../../images/banner/product-sale1.jpg);
+    }
+    .box2 {
+        background-image: url(../../images/banner/product-sale2.jpg);
+    }
+    .box3 {
+        background-image: url(../../images/banner/product-sale3.jpg);
     }
 }
