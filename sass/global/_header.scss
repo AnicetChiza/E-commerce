@@ -47,3 +47,23 @@ header nav ul a i {
 header nav ul li .home {
     border-bottom: 2px solid var(--orange);
 }
+
+
+/******** FOOTER ********/
+
+footer {
+    img {
+        width: 6rem;
+    }
+    .footer-container {
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        justify-content: space-between;
+        h4 {
+            margin-bottom: 10px;
+        }
+        a {
+            color: var(--blackColor);
+        }
+    }
+}

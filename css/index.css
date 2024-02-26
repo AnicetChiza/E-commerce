@@ -60,6 +60,22 @@ header nav ul li .home {
   border-bottom: 2px solid var(--orange);
 }
 
+/******** FOOTER ********/
+footer img {
+  width: 6rem;
+}
+footer .footer-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  justify-content: space-between;
+}
+footer .footer-container h4 {
+  margin-bottom: 10px;
+}
+footer .footer-container a {
+  color: var(--blackColor);
+}
+
 /******** PADDING FOR ALL THE WEBSITE ********/
 .all-section {
   padding: 10px 100px;
