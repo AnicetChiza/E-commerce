@@ -78,7 +78,28 @@ footer .footer-container a {
 footer .footer-container .app div {
   padding: 10px;
   border-radius: 5px;
+  margin-top: 10px;
+  font-weight: 700;
   border: 2px solid var(--blueColor);
+  transition: 0.5s;
+  transition-delay: 0.2s;
+}
+footer .footer-container .app div a {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  justify-content: center;
+  color: var(--blueColor);
+  -webkit-column-gap: 5px;
+}
+footer .footer-container .app div:hover {
+  background-color: var(--blueColor);
+}
+footer .footer-container .app div:hover i,
+footer .footer-container .app div:hover p {
+  color: var(--whiteColor);
+  transition: 0.5s;
+  transition-delay: 0.2s;
 }
 
 /******** PADDING FOR ALL THE WEBSITE ********/

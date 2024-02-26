@@ -1,76 +1,94 @@
-@use '../utils/' as u;
-
-/******** HEADER ********/
-
-header {
-    width: 100%;
-    position: fixed;
-    z-index: 5;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 10px 100px;
-    justify-content: space-between;
-    background-color: var(--grayColor);
-    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.09);
-}
-
-header img {
-    width: 6rem;
-}
-
-header nav ul {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 25px;
-    -webkit-column-gap: 25px;
-}
-
-header nav ul li a {
-    color: var(--blueColor);
-}
-
-header nav ul a:hover {
-    transition: 0.8s;
-    transition-delay: 0.2s;
-    color: var(--orange);
-}
-
-header nav ul a i {
-    padding: 10px 11px;
-    border-radius: 100%;
-    color: var(--whiteColor);
-    background-color: var(--orange);
-}
-
-header nav ul li .home {
-    border-bottom: 2px solid var(--orange);
-}
-
-
-/******** FOOTER ********/
-
-footer {
-    img {
-        width: 6rem;
-    }
-    .footer-container {
-        display: grid;
-        grid-template-columns: auto auto auto auto;
-        justify-content: space-between;
-        h4 {
-            margin-bottom: 10px;
+        @use '../utils/' as u;
+        /******** HEADER ********/
+        
+        header {
+            width: 100%;
+            position: fixed;
+            z-index: 5;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            padding: 10px 100px;
+            justify-content: space-between;
+            background-color: var(--grayColor);
+            box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.09);
         }
-        a {
-            color: var(--blackColor);
+        
+        header img {
+            width: 6rem;
         }
-        .app {
-            div {
-                padding: 10px;
-                border-radius: 5px;
-                border: 2px solid var(--blueColor);
+        
+        header nav ul {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            gap: 25px;
+            -webkit-column-gap: 25px;
+        }
+        
+        header nav ul li a {
+            color: var(--blueColor);
+        }
+        
+        header nav ul a:hover {
+            transition: 0.8s;
+            transition-delay: 0.2s;
+            color: var(--orange);
+        }
+        
+        header nav ul a i {
+            padding: 10px 11px;
+            border-radius: 100%;
+            color: var(--whiteColor);
+            background-color: var(--orange);
+        }
+        
+        header nav ul li .home {
+            border-bottom: 2px solid var(--orange);
+        }
+        /******** FOOTER ********/
+        
+        footer {
+            img {
+                width: 6rem;
+            }
+            .footer-container {
+                display: grid;
+                grid-template-columns: auto auto auto auto;
+                justify-content: space-between;
+                h4 {
+                    margin-bottom: 10px;
+                }
+                a {
+                    color: var(--blackColor);
+                }
+                .app {
+                    div {
+                        padding: 10px;
+                        border-radius: 5px;
+                        margin-top: 10px;
+                        font-weight: 700;
+                        border: 2px solid var(--blueColor);
+                        transition: 0.5s;
+                        transition-delay: 0.2s;
+                        a {
+                            display: flex;
+                            gap: 5px;
+                            align-items: center;
+                            justify-content: center;
+                            color: var(--blueColor);
+                            -webkit-column-gap: 5px;
+                        }
+                        &:hover {
+                            background-color: var(--blueColor);
+                            i,
+                            p {
+                                color: var(--whiteColor);
+                                transition: 0.5s;
+                                transition-delay: 0.2s;
+                            }
+                        }
+                    }
+                }
             }
         }
-    }
-}
