@@ -13,10 +13,10 @@ main .home-page {
     align-items: center;
     justify-content: space-between;
     h3 {
-        font-size: 30px;
+        font-size: 25px;
     }
     h2 {
-        font-size: 35px;
+        font-size: 30px;
         color: var(--blueColor);
     }
     .vetement {
@@ -54,9 +54,9 @@ main .home-page {
     text-align: center;
     justify-content: center;
     margin: auto;
-    gap: 80px;
-    -webkit-column-gap: 80px;
-    padding: 20px;
+    gap: 50px;
+    -webkit-column-gap: 50px;
+    padding: 15px;
     background-color: var(--gray);
 }
 
@@ -64,6 +64,7 @@ main .home-page {
 /********* FEATURED PRODUCTS *********/
 
 .featured-product {
+    width: 100%;
     padding-top: 30px;
     padding-bottom: 30px;
     .all-div {
@@ -92,7 +93,7 @@ main .home-page {
         }
         .prod-content {
             .prod-image {
-                width: 280px;
+                width: 200px;
                 margin: auto;
                 border-radius: 10px;
                 background-color: var(--gray);
@@ -157,11 +158,11 @@ main .home-page {
     -webkit-column-gap: 10px;
     margin-top: 10px;
     .banner-box {
-        padding: 100px;
+        padding: 80px;
         text-align: center;
         background-position: top;
         background-repeat: no-repeat;
-        h3 {
+        h4 {
             color: var(--blueColor);
         }
         p {

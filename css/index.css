@@ -139,10 +139,10 @@ main .home-page {
   justify-content: space-between;
 }
 main .home-page h3 {
-  font-size: 30px;
+  font-size: 25px;
 }
 main .home-page h2 {
-  font-size: 35px;
+  font-size: 30px;
   color: var(--blueColor);
 }
 main .home-page .vetement {
@@ -177,14 +177,15 @@ main .home-page .vetement .second-image {
   text-align: center;
   justify-content: center;
   margin: auto;
-  gap: 80px;
-  -webkit-column-gap: 80px;
-  padding: 20px;
+  gap: 50px;
+  -webkit-column-gap: 50px;
+  padding: 15px;
   background-color: var(--gray);
 }
 
 /********* FEATURED PRODUCTS *********/
 .featured-product {
+  width: 100%;
   padding-top: 30px;
   padding-bottom: 30px;
 }
@@ -214,7 +215,7 @@ main .home-page .vetement .second-image {
   box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
 }
 .featured-product .product .prod-content .prod-image {
-  width: 280px;
+  width: 200px;
   margin: auto;
   border-radius: 10px;
   background-color: var(--gray);
@@ -281,12 +282,12 @@ main .home-page .vetement .second-image {
   margin-top: 10px;
 }
 .second-part-banner .banner-box {
-  padding: 100px;
+  padding: 80px;
   text-align: center;
   background-position: top;
   background-repeat: no-repeat;
 }
-.second-part-banner .banner-box h3 {
+.second-part-banner .banner-box h4 {
   color: var(--blueColor);
 }
 .second-part-banner .banner-box p {
@@ -396,11 +397,11 @@ body {
 
 /********* ABOUT US ICON *********/
 .about-us div i {
-  font-size: 25px;
-  padding: 20px 20px;
+  font-size: 20px;
+  padding: 15px 15px;
   border-radius: 100%;
   color: var(--blueColor);
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   border: 3px solid var(--blueColor);
 }
 .about-us div i:hover {
@@ -487,4 +488,13 @@ body {
   color: var(--gold);
   border: 2px solid var(--gold);
   background: none;
+}
+
+@media screen and (max-width: 1140px) {
+  .all-section {
+    padding: 10px 70px;
+  }
+  header {
+    padding: 10px 70px;
+  }
 }/*# sourceMappingURL=index.css.map */

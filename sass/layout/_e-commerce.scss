@@ -1,2 +1,9 @@
 @use '../utils/' as u;
-@include u.breakpoint(laptop) {}
+@media screen and (max-width: 1140px) {
+    .all-section {
+        padding: 10px 70px;
+    }
+    header {
+        padding: 10px 70px;
+    }
+}
