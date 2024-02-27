@@ -88,4 +88,23 @@
             }
         }
     }
+    @media screen and (max-width: 540px) {
+        header {
+            padding: 10px 30px;
+        }
+        .all-section {
+            padding: 10px 30px;
+        }
+        footer {
+            .footer-container {
+                grid-template-columns: auto;
+                div {
+                    margin-top: 15px;
+                }
+            }
+            .media-sociaux {
+                margin-top: 30px;
+            }
+        }
+    }
 }

@@ -567,4 +567,21 @@ body {
   footer .footer-container div {
     margin-top: 15px;
   }
+}
+@media screen and (max-width: 768px) and (max-width: 540px) {
+  header {
+    padding: 10px 30px;
+  }
+  .all-section {
+    padding: 10px 30px;
+  }
+  footer .footer-container {
+    grid-template-columns: auto;
+  }
+  footer .footer-container div {
+    margin-top: 15px;
+  }
+  footer .media-sociaux {
+    margin-top: 30px;
+  }
 }/*# sourceMappingURL=index.css.map */
