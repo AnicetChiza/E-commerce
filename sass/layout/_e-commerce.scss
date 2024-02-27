@@ -19,6 +19,15 @@
 }
 
 @include u.breakpoint(laptop) {
+    main .home-page {
+        .vetement .first-image,
+        .second-image {
+            display: none;
+        }
+    }
+    .about-us {
+        grid-template-columns: auto auto auto auto;
+    }
     .featured-product {
         .all-div {
             display: grid;
@@ -28,5 +37,31 @@
     }
     .second-part-banner {
         grid-template-columns: auto auto;
+    }
+    .news-letter {
+        text-align: center;
+        .news {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+    footer {
+        .footer-container {
+            grid-template-columns: auto auto auto;
+        }
+    }
+}
+
+@include u.breakpoint(tablet) {
+    .featured-product {
+        .all-div {
+            grid-template-columns: auto auto;
+            justify-content: center;
+        }
+    }
+    footer {
+        .footer-container {
+            grid-template-columns: auto auto;
+        }
     }
 }

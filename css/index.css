@@ -151,7 +151,7 @@ main .home-page .vetement {
   text-align: center;
 }
 main .home-page .vetement .first-image {
-  width: 60%;
+  width: 40%;
   margin-top: 120px;
   animation-delay: 0.8s;
   animation: animated 5s linear infinite;
@@ -161,11 +161,11 @@ main .home-page .vetement .first-image {
     transform: translateY(-10px);
   }
   50% {
-    transform: translateY(50px);
+    transform: translateY(20px);
   }
 }
 main .home-page .vetement .second-image {
-  width: 70%;
+  width: 50%;
   margin-top: -120px;
   filter: blur(8px);
 }
@@ -509,12 +509,38 @@ body {
   }
 }
 @media (max-width: 978px) {
+  main .home-page .vetement .first-image,
+  main .home-page .second-image {
+    display: none;
+  }
+  .about-us {
+    grid-template-columns: auto auto auto auto;
+  }
   .featured-product .all-div {
     display: grid;
     grid-template-columns: auto auto auto;
     justify-content: space-between;
   }
   .second-part-banner {
+    grid-template-columns: auto auto;
+  }
+  .news-letter {
+    text-align: center;
+  }
+  .news-letter .news {
+    display: flex;
+    flex-direction: column;
+  }
+  footer .footer-container {
+    grid-template-columns: auto auto auto;
+  }
+}
+@media (max-width: 768px) {
+  .featured-product .all-div {
+    grid-template-columns: auto auto;
+    justify-content: center;
+  }
+  footer .footer-container {
     grid-template-columns: auto auto;
   }
 }/*# sourceMappingURL=index.css.map */

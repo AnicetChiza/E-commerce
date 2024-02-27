@@ -25,7 +25,7 @@ main .home-page {
         text-align: center;
     }
     .vetement .first-image {
-        width: 60%;
+        width: 40%;
         margin-top: 120px;
         animation-delay: 0.8s;
         animation: animated 5s linear infinite;
@@ -34,12 +34,12 @@ main .home-page {
                 transform: translateY(-10px);
             }
             50% {
-                transform: translateY(50px);
+                transform: translateY(20px);
             }
         }
     }
     .vetement .second-image {
-        width: 70%;
+        width: 50%;
         margin-top: -120px;
         filter: blur(8px);
     }
