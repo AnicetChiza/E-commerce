@@ -131,15 +131,11 @@
 
 @include u.breakpoint(mobile) {
     main .home-page {
-        height: 100vh;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
         h3 {
-            font-size: 25px;
+            font-size: 20px;
         }
         h2 {
-            font-size: 30px;
+            font-size: 25px;
             color: var(--blueColor);
         }
     }
@@ -157,6 +153,24 @@
             .prod-content {
                 .prod-image {
                     width: 100%;
+                }
+            }
+        }
+    }
+    @media screen and (max-width: 400px) {
+        .news-letter {
+            .news {
+                display: grid;
+                .news-content {
+                    background-color: unset;
+                    input {
+                        width: 100%;
+                        border-radius: 5px;
+                        background-color: var(--whiteColor);
+                    }
+                    button {
+                        margin-top: 10px;
+                    }
                 }
             }
         }

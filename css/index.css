@@ -604,17 +604,11 @@ body {
   }
 }
 @media (max-width: 480px) {
-  main .home-page {
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
   main .home-page h3 {
-    font-size: 25px;
+    font-size: 20px;
   }
   main .home-page h2 {
-    font-size: 30px;
+    font-size: 25px;
     color: var(--blueColor);
   }
   .about-us {
@@ -630,5 +624,21 @@ body {
   }
   .featured-product .product .prod-content .prod-image {
     width: 100%;
+  }
+}
+@media screen and (max-width: 480px) and (max-width: 400px) {
+  .news-letter .news {
+    display: grid;
+  }
+  .news-letter .news .news-content {
+    background-color: unset;
+  }
+  .news-letter .news .news-content input {
+    width: 100%;
+    border-radius: 5px;
+    background-color: var(--whiteColor);
+  }
+  .news-letter .news .news-content button {
+    margin-top: 10px;
   }
 }/*# sourceMappingURL=index.css.map */
