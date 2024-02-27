@@ -575,6 +575,13 @@ body {
   .all-section {
     padding: 10px 30px;
   }
+  .arrivals {
+    padding: 80px;
+  }
+  .news-letter {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
   footer .footer-container {
     grid-template-columns: auto;
   }
