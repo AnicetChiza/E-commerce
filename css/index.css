@@ -604,17 +604,31 @@ body {
   }
 }
 @media (max-width: 480px) {
+  main .home-page {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  main .home-page h3 {
+    font-size: 25px;
+  }
+  main .home-page h2 {
+    font-size: 30px;
+    color: var(--blueColor);
+  }
   .about-us {
     grid-template-columns: auto auto;
   }
-  .featured-product {
-    width: 100%;
-  }
   .featured-product .all-div {
+    width: 100%;
     grid-template-columns: auto;
     gap: 1px;
   }
   .featured-product .product {
+    width: 100%;
+  }
+  .featured-product .product .prod-content .prod-image {
     width: 100%;
   }
 }/*# sourceMappingURL=index.css.map */

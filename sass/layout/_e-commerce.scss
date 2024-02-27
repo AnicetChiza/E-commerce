@@ -130,17 +130,35 @@
 }
 
 @include u.breakpoint(mobile) {
+    main .home-page {
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        h3 {
+            font-size: 25px;
+        }
+        h2 {
+            font-size: 30px;
+            color: var(--blueColor);
+        }
+    }
     .about-us {
         grid-template-columns: auto auto;
     }
     .featured-product {
-        width: 100%;
         .all-div {
+            width: 100%;
             grid-template-columns: auto;
             gap: 1px;
         }
         .product {
             width: 100%;
+            .prod-content {
+                .prod-image {
+                    width: 100%;
+                }
+            }
         }
     }
 }
