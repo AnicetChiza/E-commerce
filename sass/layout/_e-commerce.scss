@@ -1,9 +1,32 @@
 @use '../utils/' as u;
 @media screen and (max-width: 1140px) {
     .all-section {
-        padding: 10px 70px;
+        padding: 10px 60px;
     }
     header {
-        padding: 10px 70px;
+        padding: 10px 60px;
+    }
+    .about-us {
+        padding: 20px;
+    }
+    .arrivals {
+        padding: 60px;
+    }
+    .news-letter {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+}
+
+@include u.breakpoint(laptop) {
+    .featured-product {
+        .all-div {
+            display: grid;
+            grid-template-columns: auto auto auto;
+            justify-content: space-between;
+        }
+    }
+    .second-part-banner {
+        grid-template-columns: auto auto;
     }
 }

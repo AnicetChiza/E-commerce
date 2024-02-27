@@ -208,14 +208,14 @@ main .home-page .vetement .second-image {
   width: fit-content;
   margin-top: 15px;
   border-radius: 10px;
-  padding: 20px;
+  padding: 18px;
   border: 1px solid var(--gray);
 }
 .featured-product .product:hover {
   box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
 }
 .featured-product .product .prod-content .prod-image {
-  width: 200px;
+  width: 180px;
   margin: auto;
   border-radius: 10px;
   background-color: var(--gray);
@@ -254,8 +254,8 @@ main .home-page .vetement .second-image {
 .first-part-banner {
   display: grid;
   grid-template-columns: auto auto;
-  gap: 40px;
-  -webkit-column-gap: 40px;
+  gap: 10px;
+  -webkit-column-gap: 10px;
 }
 .first-part-banner .banner-1 {
   padding: 80px 40px;
@@ -492,9 +492,29 @@ body {
 
 @media screen and (max-width: 1140px) {
   .all-section {
-    padding: 10px 70px;
+    padding: 10px 60px;
   }
   header {
-    padding: 10px 70px;
+    padding: 10px 60px;
+  }
+  .about-us {
+    padding: 20px;
+  }
+  .arrivals {
+    padding: 60px;
+  }
+  .news-letter {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}
+@media (max-width: 978px) {
+  .featured-product .all-div {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-between;
+  }
+  .second-part-banner {
+    grid-template-columns: auto auto;
   }
 }/*# sourceMappingURL=index.css.map */

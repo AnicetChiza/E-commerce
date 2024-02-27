@@ -86,14 +86,14 @@ main .home-page {
         width: fit-content;
         margin-top: 15px;
         border-radius: 10px;
-        padding: 20px;
+        padding: 18px;
         border: 1px solid var(--gray);
         &:hover {
             box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
         }
         .prod-content {
             .prod-image {
-                width: 200px;
+                width: 180px;
                 margin: auto;
                 border-radius: 10px;
                 background-color: var(--gray);
@@ -139,8 +139,8 @@ main .home-page {
 .first-part-banner {
     display: grid;
     grid-template-columns: auto auto;
-    gap: 40px;
-    -webkit-column-gap: 40px;
+    gap: 10px;
+    -webkit-column-gap: 10px;
     .banner-1 {
         @include banner;
         background-image: url('../../images/banner/banner1.jpg');
