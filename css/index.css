@@ -536,18 +536,24 @@ body {
   }
 }
 @media (max-width: 768px) {
+  .about-us {
+    grid-template-columns: auto auto auto;
+  }
   .featured-product .all-div {
     grid-template-columns: auto auto;
     justify-content: center;
   }
+  .arrivals h1 {
+    font-size: 20px;
+  }
   .first-part-banner {
-    grid-template-columns: auto auto;
+    grid-template-columns: auto;
   }
   .second-part-banner {
     grid-template-columns: auto;
   }
   .second-part-banner .banner-box {
-    width: 100%;
+    background-size: cover;
   }
   footer .footer-container {
     grid-template-columns: auto auto;
