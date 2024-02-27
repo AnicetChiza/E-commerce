@@ -129,4 +129,18 @@
     }
 }
 
-@include u.breakpoint(mobile) {}
+@include u.breakpoint(mobile) {
+    .about-us {
+        grid-template-columns: auto auto;
+    }
+    .featured-product {
+        width: 100%;
+        .all-div {
+            grid-template-columns: auto;
+            gap: 1px;
+        }
+        .product {
+            width: 100%;
+        }
+    }
+}

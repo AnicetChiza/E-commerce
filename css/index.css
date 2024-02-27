@@ -602,4 +602,19 @@ body {
   footer .media-sociaux {
     margin-top: 30px;
   }
+}
+@media (max-width: 480px) {
+  .about-us {
+    grid-template-columns: auto auto;
+  }
+  .featured-product {
+    width: 100%;
+  }
+  .featured-product .all-div {
+    grid-template-columns: auto;
+    gap: 1px;
+  }
+  .featured-product .product {
+    width: 100%;
+  }
 }/*# sourceMappingURL=index.css.map */
