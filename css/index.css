@@ -171,16 +171,23 @@ main .home-page .vetement .second-image {
 }
 
 /********* ABOUT US DIV *********/
+@keyframes animated {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100);
+  }
+}
 .about-us {
-  display: grid;
-  grid-template-columns: auto auto auto auto auto auto;
+  display: flex;
   text-align: center;
-  justify-content: center;
-  margin: auto;
+  justify-content: space-between;
   gap: 50px;
   -webkit-column-gap: 50px;
   padding: 15px;
   background-color: var(--gray);
+  animation: 5s animated infinite linear;
 }
 
 /********* FEATURED PRODUCTS *********/
