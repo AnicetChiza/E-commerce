@@ -639,6 +639,9 @@ body {
     background-color: var(--whiteColor);
   }
   .news-letter .news .news-content button {
+    width: 100%;
     margin-top: 10px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
   }
 }/*# sourceMappingURL=index.css.map */
