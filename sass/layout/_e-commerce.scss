@@ -1,2 +1,2 @@
 @use '../utils/' as u;
-@use '../utils/breakpoint' as *;
+@include u.breakpoint(laptop) {}
