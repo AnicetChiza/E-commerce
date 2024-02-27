@@ -184,9 +184,8 @@ main .home-page .vetement .second-image {
 }
 
 .about-us {
-  display: flex;
+  display: inline-block;
   text-align: center;
-  justify-content: space-around;
   gap: 50px;
   -webkit-column-gap: 50px;
   padding: 15px;
