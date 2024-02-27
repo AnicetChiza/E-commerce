@@ -59,9 +59,21 @@
             justify-content: center;
         }
     }
+    .first-part-banner {
+        grid-template-columns: auto auto;
+    }
+    .second-part-banner {
+        grid-template-columns: auto;
+        .banner-box {
+            width: 100%;
+        }
+    }
     footer {
         .footer-container {
             grid-template-columns: auto auto;
+            div {
+                margin-top: 15px;
+            }
         }
     }
 }

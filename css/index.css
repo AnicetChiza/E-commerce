@@ -540,7 +540,19 @@ body {
     grid-template-columns: auto auto;
     justify-content: center;
   }
+  .first-part-banner {
+    grid-template-columns: auto auto;
+  }
+  .second-part-banner {
+    grid-template-columns: auto;
+  }
+  .second-part-banner .banner-box {
+    width: 100%;
+  }
   footer .footer-container {
     grid-template-columns: auto auto;
+  }
+  footer .footer-container div {
+    margin-top: 15px;
   }
 }/*# sourceMappingURL=index.css.map */
