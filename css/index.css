@@ -194,6 +194,8 @@ main .home-page .vetement .second-image {
   text-align: center;
   align-items: center;
   gap: 120px;
+  margin-top: 15px;
+  margin-bottom: 15px;
   -webkit-column-gap: 120px;
   animation: 45s animated infinite linear;
 }
@@ -516,9 +518,6 @@ body {
   header {
     padding: 10px 60px;
   }
-  .about-us {
-    padding: 20px;
-  }
   .arrivals {
     padding: 60px;
   }
@@ -534,9 +533,6 @@ body {
   main .home-page .vetement .first-image,
   main .home-page .second-image {
     display: none;
-  }
-  .about-us {
-    grid-template-columns: auto auto auto auto;
   }
   .featured-product .all-div {
     display: grid;
@@ -560,9 +556,6 @@ body {
 @media (max-width: 768px) {
   header nav ul li {
     display: none;
-  }
-  .about-us {
-    grid-template-columns: auto auto auto;
   }
   .featured-product .all-div {
     grid-template-columns: auto auto;
@@ -629,9 +622,6 @@ body {
   main .home-page h2 {
     font-size: 25px;
     color: var(--blueColor);
-  }
-  .about-us {
-    grid-template-columns: auto auto;
   }
   .featured-product .all-div {
     width: 100%;

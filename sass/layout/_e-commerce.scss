@@ -6,9 +6,6 @@
     header {
         padding: 10px 60px;
     }
-    .about-us {
-        padding: 20px;
-    }
     .arrivals {
         padding: 60px;
     }
@@ -25,9 +22,6 @@
         .second-image {
             display: none;
         }
-    }
-    .about-us {
-        grid-template-columns: auto auto auto auto;
     }
     .featured-product {
         .all-div {
@@ -56,9 +50,6 @@
 @include u.breakpoint(tablet) {
     header nav ul li {
         display: none;
-    }
-    .about-us {
-        grid-template-columns: auto auto auto;
     }
     .featured-product {
         .all-div {
@@ -138,9 +129,6 @@
             font-size: 25px;
             color: var(--blueColor);
         }
-    }
-    .about-us {
-        grid-template-columns: auto auto;
     }
     .featured-product {
         .all-div {

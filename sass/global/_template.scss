@@ -72,8 +72,9 @@ main .home-page {
     text-align: center;
     align-items: center;
     gap: 120px;
+    margin-top: 15px;
+    margin-bottom: 15px;
     -webkit-column-gap: 120px;
-    //padding: 15px;
     animation: 45s animated infinite linear;
 }
 
