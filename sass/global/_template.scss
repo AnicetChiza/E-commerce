@@ -70,10 +70,15 @@ main .home-page {
 .about-us {
     display: flex;
     text-align: center;
-    gap: 100px;
-    -webkit-column-gap: 100px;
+    align-items: center;
+    gap: 120px;
+    -webkit-column-gap: 120px;
     padding: 15px;
-    animation: 35s animated infinite linear;
+    animation: 45s animated infinite linear;
+}
+
+.about:hover .about-us {
+    animation-play-state: paused;
 }
 
 
