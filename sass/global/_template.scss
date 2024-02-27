@@ -28,8 +28,8 @@ main .home-page {
         width: 40%;
         margin-top: 120px;
         animation-delay: 0.8s;
-        animation: animated 5s linear infinite;
-        @keyframes animated {
+        animation: animate 5s linear infinite;
+        @keyframes animate {
             0% {
                 transform: translateY(-10px);
             }
@@ -58,17 +58,22 @@ main .home-page {
 }
 
 .about {
+    display: flex;
+    justify-content: space-around;
     background-color: var(--gray);
-    //white-space: nowrap;
+    white-space: nowrap;
+    gap: 60px;
+    overflow: hidden;
+    -webkit-column-gap: 60px;
 }
 
 .about-us {
-    display: inline-block;
+    display: flex;
     text-align: center;
-    gap: 50px;
-    -webkit-column-gap: 50px;
+    gap: 100px;
+    -webkit-column-gap: 100px;
     padding: 15px;
-    animation: 20s animated infinite linear;
+    animation: 35s animated infinite linear;
 }
 
 
