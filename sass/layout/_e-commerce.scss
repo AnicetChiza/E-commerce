@@ -20,6 +20,7 @@
 
 @include u.breakpoint(laptop) {
     main .home-page {
+        background: linear-gradient(to bottom, #dbbc5fa4 0%, #20609bb0 100%), url(../../images/home-page/image.png) no-repeat center;
         .vetement .first-image,
         .second-image {
             display: none;
