@@ -92,6 +92,19 @@
         header {
             padding: 10px 30px;
         }
+        main .home-page {
+            h3,
+            p {
+                color: var(--whiteColor);
+            }
+            button {
+                color: var(--whiteColor);
+                border: 2px solid var(--whiteColor);
+                &:hover {
+                    border: 2px solid var(--blueColor);
+                }
+            }
+        }
         .all-section {
             padding: 10px 30px;
         }
@@ -115,3 +128,5 @@
         }
     }
 }
+
+@include u.breakpoint(mobile) {}

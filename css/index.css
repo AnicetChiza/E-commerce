@@ -572,6 +572,17 @@ body {
   header {
     padding: 10px 30px;
   }
+  main .home-page h3,
+  main .home-page p {
+    color: var(--whiteColor);
+  }
+  main .home-page button {
+    color: var(--whiteColor);
+    border: 2px solid var(--whiteColor);
+  }
+  main .home-page button:hover {
+    border: 2px solid var(--blueColor);
+  }
   .all-section {
     padding: 10px 30px;
   }
