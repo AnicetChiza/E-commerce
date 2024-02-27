@@ -54,6 +54,9 @@
 }
 
 @include u.breakpoint(tablet) {
+    header nav ul li {
+        display: none;
+    }
     .about-us {
         grid-template-columns: auto auto auto;
     }
