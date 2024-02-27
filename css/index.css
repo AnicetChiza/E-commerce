@@ -176,18 +176,21 @@ main .home-page .vetement .second-image {
     transform: translateX(0);
   }
   to {
-    transform: translateX(-100);
+    transform: translateX(-100%);
   }
 }
+.about {
+  background-color: var(--gray);
+}
+
 .about-us {
   display: flex;
   text-align: center;
-  justify-content: space-between;
+  justify-content: space-around;
   gap: 50px;
   -webkit-column-gap: 50px;
   padding: 15px;
-  background-color: var(--gray);
-  animation: 5s animated infinite linear;
+  animation: 20s animated infinite linear;
 }
 
 /********* FEATURED PRODUCTS *********/
