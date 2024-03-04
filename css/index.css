@@ -56,14 +56,15 @@ header nav .menu-icon {
   -webkit-column-gap: 10px;
 }
 
-header nav .menu-icon i {
+header nav .menu-icon .menu {
+  display: none;
   color: var(--whiteColor);
   padding: 10px 11px;
   border-radius: 50%;
   cursor: pointer;
   background-color: var(--gold);
 }
-header nav .menu-icon i:hover {
+header nav .menu-icon .menu:hover {
   background-color: var(--blueColor);
   transition: 0.8s;
   transition-delay: 0.2s;
@@ -588,6 +589,9 @@ body {
   header nav ul li {
     display: none;
   }
+  header nav .menu-icon .menu {
+    display: initial;
+  }
   .featured-product .all-div {
     grid-template-columns: auto auto;
     justify-content: center;
@@ -613,7 +617,7 @@ body {
 }
 @media screen and (max-width: 768px) and (max-width: 540px) {
   header {
-    padding: 10px 30px;
+    padding: 10px 25px;
   }
   main .home-page h3,
   main .home-page p {
@@ -627,7 +631,7 @@ body {
     border: 2px solid var(--blueColor);
   }
   .all-section {
-    padding: 10px 30px;
+    padding: 10px 25px;
   }
   .arrivals {
     padding: 80px;

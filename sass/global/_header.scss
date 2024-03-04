@@ -43,7 +43,8 @@
             -webkit-column-gap: 10px;
         }
         
-        header nav .menu-icon i {
+        header nav .menu-icon .menu {
+            display: none;
             color: var(--whiteColor);
             padding: 10px 11px;
             border-radius: 50%;

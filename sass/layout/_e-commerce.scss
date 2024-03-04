@@ -51,6 +51,9 @@
     header nav ul li {
         display: none;
     }
+    header nav .menu-icon .menu {
+        display: initial;
+    }
     .featured-product {
         .all-div {
             grid-template-columns: auto auto;
@@ -81,7 +84,7 @@
     }
     @media screen and (max-width: 540px) {
         header {
-            padding: 10px 30px;
+            padding: 10px 25px;
         }
         main .home-page {
             h3,
@@ -97,7 +100,7 @@
             }
         }
         .all-section {
-            padding: 10px 30px;
+            padding: 10px 25px;
         }
         .arrivals {
             padding: 80px;
