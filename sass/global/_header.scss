@@ -30,13 +30,13 @@
             color: var(--blueColor);
         }
         
-        header nav ul a:hover {
+        header nav a:hover {
             transition: 0.8s;
             transition-delay: 0.2s;
             color: var(--gold);
         }
         
-        header nav ul a i {
+        header nav a i {
             padding: 10px 11px;
             border-radius: 100%;
             color: var(--whiteColor);
