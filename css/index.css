@@ -31,6 +31,12 @@ header img {
   width: 6rem;
 }
 
+header nav {
+  display: flex;
+  gap: 25px;
+  -webkit-column-gap: 25px;
+}
+
 header nav ul {
   display: flex;
   flex-direction: row;
@@ -41,6 +47,20 @@ header nav ul {
 
 header nav ul li a {
   color: var(--blueColor);
+}
+
+header nav .menu-icon {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  -webkit-column-gap: 10px;
+}
+
+header nav .menu-icon i {
+  color: var(--whiteColor);
+  padding: 10px 11px;
+  border-radius: 50%;
+  background-color: var(--gold);
 }
 
 header nav a:hover {
