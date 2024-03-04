@@ -46,18 +46,18 @@ header nav ul li a {
 header nav ul a:hover {
   transition: 0.8s;
   transition-delay: 0.2s;
-  color: var(--orange);
+  color: var(--gold);
 }
 
 header nav ul a i {
   padding: 10px 11px;
   border-radius: 100%;
   color: var(--whiteColor);
-  background-color: var(--orange);
+  background-color: var(--gold);
 }
 
 header nav ul li .home {
-  border-bottom: 2px solid var(--orange);
+  border-bottom: 2px solid var(--gold);
 }
 
 /******** FOOTER ********/
@@ -184,9 +184,9 @@ main .home-page .vetement .second-image {
   justify-content: space-around;
   background-color: var(--gray);
   white-space: nowrap;
-  gap: 60px;
+  gap: 80px;
   overflow: hidden;
-  -webkit-column-gap: 60px;
+  -webkit-column-gap: 80px;
 }
 
 .about-us {
@@ -226,7 +226,7 @@ main .home-page .vetement .second-image {
   opacity: 0.4;
 }
 .featured-product .product {
-  width: fit-content;
+  width: 100%;
   margin-top: 15px;
   border-radius: 10px;
   padding: 18px;
@@ -236,7 +236,7 @@ main .home-page .vetement .second-image {
   box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
 }
 .featured-product .product .prod-content .prod-image {
-  width: 180px;
+  width: 100%;
   margin: auto;
   border-radius: 10px;
   background-color: var(--gray);
