@@ -60,7 +60,13 @@ header nav .menu-icon i {
   color: var(--whiteColor);
   padding: 10px 11px;
   border-radius: 50%;
+  cursor: pointer;
   background-color: var(--gold);
+}
+header nav .menu-icon i:hover {
+  background-color: var(--blueColor);
+  transition: 0.8s;
+  transition-delay: 0.2s;
 }
 
 header nav a:hover {
@@ -74,6 +80,11 @@ header nav a i {
   border-radius: 100%;
   color: var(--whiteColor);
   background-color: var(--gold);
+}
+header nav a i:hover {
+  background-color: var(--blueColor);
+  transition: 0.8s;
+  transition-delay: 0.2s;
 }
 
 header nav ul li .home {
