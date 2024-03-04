@@ -226,7 +226,7 @@ main .home-page .vetement .second-image {
   opacity: 0.4;
 }
 .featured-product .product {
-  width: 100%;
+  width: 80%;
   margin-top: 15px;
   border-radius: 10px;
   padding: 18px;
@@ -629,9 +629,6 @@ body {
     gap: 1px;
   }
   .featured-product .product {
-    width: 100%;
-  }
-  .featured-product .product .prod-content .prod-image {
     width: 100%;
   }
 }
