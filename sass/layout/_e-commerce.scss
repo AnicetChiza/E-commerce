@@ -57,13 +57,18 @@
         top: 100px;
         right: 0;
         gap: 0;
-        right: -100%;
+        margin-right: -100%;
+        transition: 0.8s;
+        transition-delay: 0.2s;
         background-color: var(--grayColor);
         box-shadow: 0px 5px 15px #00000017;
         li {
             width: 100%;
             padding: 20px;
             border-bottom: 1px solid var(--blueColor);
+        }
+        .active {
+            margin-right: 0;
         }
     }
     header nav .menu-icon .menu {
