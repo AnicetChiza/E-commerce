@@ -49,7 +49,7 @@
 
 @include u.breakpoint(tablet) {
     header nav ul li {
-        display: none;
+        //display: none;
     }
     header nav .menu-icon .menu {
         display: initial;
@@ -100,7 +100,7 @@
             }
         }
         .all-section {
-            padding: 10px 25px;
+            padding: 10px 25_px;
         }
         .arrivals {
             padding: 80px;

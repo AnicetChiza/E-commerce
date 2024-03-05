@@ -586,9 +586,6 @@ body {
   }
 }
 @media (max-width: 768px) {
-  header nav ul li {
-    display: none;
-  }
   header nav .menu-icon .menu {
     display: initial;
   }
@@ -631,7 +628,7 @@ body {
     border: 2px solid var(--blueColor);
   }
   .all-section {
-    padding: 10px 25px;
+    padding: 10px 25_px;
   }
   .arrivals {
     padding: 80px;
