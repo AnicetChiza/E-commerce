@@ -5,6 +5,11 @@ const exitIcon = document.querySelector('.exit');
 if (icon) {
     icon.addEventListener('click', () => {
         navItems.classList.add('active');
-        exitIcon.classList.remove('active');
+    })
+}
+
+if (exitIcon) {
+    exitIcon.addEventListener('click', () => {
+        navItems.classList.remove('active');
     })
 }

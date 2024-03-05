@@ -591,7 +591,7 @@ body {
 }
 @media (max-width: 768px) {
   header nav ul {
-    width: 50%;
+    width: 60%;
     height: 50vh;
     display: flex;
     flex-direction: column;
@@ -615,7 +615,7 @@ body {
     font-size: 2.2rem;
     margin-top: 35px;
     position: relative;
-    right: -150px;
+    right: -100px;
     color: var(--blueColor);
   }
   header nav .active {
