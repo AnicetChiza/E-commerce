@@ -30,6 +30,10 @@
             align-items: center;
             gap: 25px;
             -webkit-column-gap: 25px;
+            .exit {
+                display: none;
+                cursor: pointer;
+            }
         }
         
         header nav ul li a {
