@@ -50,7 +50,7 @@
 @include u.breakpoint(tablet) {
     header nav ul {
         width: 60%;
-        height: 100vh;
+        height: fit-content;
         display: flex;
         flex-direction: column;
         position: absolute;
