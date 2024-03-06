@@ -2,12 +2,13 @@
 :root {
   --whiteColor: #fff;
   --blackColor: #000;
-  --grayColor: #eceaeab7;
+  --grayColor: #f7f3f3fa;
   --gray: #dfdfdfee;
-  --goldenColor: #e6e5e0;
+  --goldenColor: #fafaf9;
   --gold: #dbbb5f;
   --blueColor: #205f9b;
   --orange: #ea6524;
+  --whiteSmoke: whitesmoke;
 }
 
 /******** POLICES ********/
@@ -589,7 +590,7 @@ body {
 @media (max-width: 768px) {
   header nav ul {
     width: 60%;
-    height: 50vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     position: absolute;
@@ -609,9 +610,8 @@ body {
   header nav ul .exit {
     display: initial;
     font-size: 2.2rem;
-    margin-top: 35px;
-    position: relative;
-    right: -100px;
+    padding: 22px 40px;
+    align-self: flex-end;
     color: var(--blueColor);
   }
   header nav .active {

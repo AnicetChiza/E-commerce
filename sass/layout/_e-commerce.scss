@@ -50,7 +50,7 @@
 @include u.breakpoint(tablet) {
     header nav ul {
         width: 60%;
-        height: 50vh;
+        height: 100vh;
         display: flex;
         flex-direction: column;
         position: absolute;
@@ -69,9 +69,8 @@
         .exit {
             display: initial;
             font-size: 2.2rem;
-            margin-top: 35px;
-            position: relative;
-            right: -100px;
+            padding: 22px 40px;
+            align-self: flex-end;
             color: var(--blueColor);
         }
     }
