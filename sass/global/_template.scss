@@ -185,7 +185,6 @@ main .home-page {
     -webkit-column-gap: 10px;
     margin-top: 10px;
     .banner-box {
-        padding: 80px;
         text-align: center;
         background-position: top;
         background-repeat: no-repeat;
@@ -204,6 +203,11 @@ main .home-page {
     }
     .box3 {
         background-image: url(../../images/banner/product-sale3.jpg);
+    }
+    .in-front {
+        width: 100%;
+        padding: 80px 40px;
+        background-color: var(--blackOpacity);
     }
 }
 
