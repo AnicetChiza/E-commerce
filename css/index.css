@@ -8,7 +8,7 @@
   --gold: #dbbb5f;
   --blueColor: #205f9b;
   --orange: #ea6524;
-  --whiteSmoke: whitesmoke;
+  --blackOpacity: rgba(0, 0, 0, 0.17);
 }
 
 /******** POLICES ********/
@@ -297,7 +297,7 @@ main .home-page .vetement .second-image {
   clip-path: polygon(0 0, 100% 25%, 100% 100%, 0 80%);
 }
 .arrivals h1 {
-  font-size: 25px;
+  font-size: 20px;
   margin-top: 10px;
   margin-bottom: 10px;
 }
@@ -313,7 +313,6 @@ main .home-page .vetement .second-image {
   -webkit-column-gap: 10px;
 }
 .first-part-banner .banner-1 {
-  padding: 80px 40px;
   color: var(--whiteColor);
   background-position: center;
   background-repeat: no-repeat;
@@ -321,12 +320,16 @@ main .home-page .vetement .second-image {
   background-image: url("../../images/banner/banner1.jpg");
 }
 .first-part-banner .banner-2 {
-  padding: 80px 40px;
   color: var(--whiteColor);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   background-image: url("../../images/banner/banner2.jpg");
+}
+.first-part-banner .in-front {
+  width: 100%;
+  padding: 80px 40px;
+  background-color: var(--blackOpacity);
 }
 
 .second-part-banner {
