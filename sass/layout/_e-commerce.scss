@@ -127,7 +127,7 @@
             }
         }
         .all-section {
-            padding: 10px 25_px;
+            padding: 10px 25px;
         }
         .arrivals {
             padding: 80px;
@@ -151,9 +151,16 @@
 }
 
 @include u.breakpoint(mobile) {
+    header {
+        padding: 10px 10px;
+    }
+    .all-section {
+        width: 100%;
+        padding: 10px 20px;
+    }
     main .home-page {
         h3 {
-            font-size: 20px;
+            font-size: 18px;
         }
         h2 {
             font-size: 25px;
