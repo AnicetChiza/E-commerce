@@ -769,4 +769,16 @@ body {
   justify-content: center;
   gap: 10px;
   -webkit-column-gap: 10px;
+}
+.pagination span {
+  padding: 10px 20px;
+  color: var(--whiteColor);
+  font-weight: 700;
+  transition: 0.8s;
+  transition-delay: 0.2s;
+  border-radius: 4px;
+  background-color: var(--blueColor);
+}
+.pagination span:hover {
+  background-color: var(--gold);
 }/*# sourceMappingURL=index.css.map */
