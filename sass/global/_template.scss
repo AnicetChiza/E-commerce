@@ -230,6 +230,7 @@ main .home-page {
         align-items: center;
         justify-content: space-between;
         span {
+            text-transform: uppercase;
             color: var(--blueColor);
         }
         .news-content {

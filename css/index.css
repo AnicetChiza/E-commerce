@@ -384,6 +384,7 @@ main .home-page .vetement .second-image {
   justify-content: space-between;
 }
 .news-letter .news span {
+  text-transform: uppercase;
   color: var(--blueColor);
 }
 .news-letter .news .news-content {
@@ -723,6 +724,7 @@ body {
     display: grid;
   }
   .news-letter .news .news-content {
+    width: 100%;
     background-color: unset;
   }
   .news-letter .news .news-content input {
@@ -759,4 +761,24 @@ body {
 }
 .my-page div h1 {
   font-size: 2.5rem;
+}
+
+.pagination {
+  display: flex;
+  margin-top: 20px;
+  justify-content: center;
+  gap: 10px;
+  -webkit-column-gap: 10px;
+}
+.pagination span {
+  padding: 10px 20px;
+  color: var(--whiteColor);
+  font-weight: 700;
+  transition: 0.8s;
+  transition-delay: 0.2s;
+  border-radius: 4px;
+  background-color: var(--blueColor);
+}
+.pagination span:hover {
+  background-color: var(--gold);
 }/*# sourceMappingURL=index.css.map */
