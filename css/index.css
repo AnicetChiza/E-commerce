@@ -794,6 +794,7 @@ body {
 }
 .main-product .main-image {
   width: 100%;
+  cursor: pointer;
   background-color: var(--gray);
 }
 .main-product .pro-images {
@@ -804,6 +805,7 @@ body {
 }
 .main-product .pro-images .small-image {
   width: 100%;
+  cursor: pointer;
   background-color: var(--gray);
 }
 

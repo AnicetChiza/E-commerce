@@ -13,3 +13,13 @@ if (exitIcon) {
         navItems.classList.remove('active');
     })
 }
+
+//Changing image source
+const mainImage = document.querySelector('.main-image');
+const smallImage = document.querySelectorAll('.small-image');
+
+smallImage.forEach((smallImage, index) => {
+    smallImage.onclick = function() {
+        mainImage.src = smallImage.src;
+    };
+});

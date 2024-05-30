@@ -54,6 +54,7 @@
     width: 75%;
     .main-image {
         width: 100%;
+        cursor: pointer;
         background-color: var(--gray);
     }
     .pro-images {
@@ -63,6 +64,7 @@
         grid-template-columns: auto auto auto auto;
         .small-image {
             width: 100%;
+            cursor: pointer;
             background-color: var(--gray);
         }
     }
