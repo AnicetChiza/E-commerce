@@ -770,7 +770,7 @@ body {
   gap: 10px;
   -webkit-column-gap: 10px;
 }
-.pagination span {
+.pagination a {
   padding: 10px 20px;
   color: var(--whiteColor);
   font-weight: 700;
@@ -779,6 +779,6 @@ body {
   border-radius: 4px;
   background-color: var(--blueColor);
 }
-.pagination span:hover {
+.pagination a:hover {
   background-color: var(--gold);
 }/*# sourceMappingURL=index.css.map */
