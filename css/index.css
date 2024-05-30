@@ -783,12 +783,15 @@ body {
   background-color: var(--gold);
 }
 
-.s-prod {
-  padding: 130px 60px;
+.main-prod {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  grid-template-columns: auto auto;
 }
 
 .main-product {
-  width: 30%;
+  width: 75%;
 }
 .main-product .main-image {
   width: 100%;
@@ -803,4 +806,42 @@ body {
 .main-product .pro-images .small-image {
   width: 100%;
   background-color: var(--gray);
+}
+
+.prod-details h4 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  color: var(--blueColor);
+}
+.prod-details select {
+  border: none;
+  outline: none;
+  margin-top: 20px;
+  padding: 10px 10px;
+  background: var(--gray);
+  font-family: "Lora", serif;
+}
+.prod-details div {
+  margin-top: 20px;
+  display: flex;
+  gap: 5px;
+  -webkit-column-gap: 5px;
+}
+.prod-details div input {
+  width: 8%;
+  border: none;
+  outline: none;
+  background: unset;
+  padding: 8px 8px;
+  font-family: "Lora", serif;
+  border: 2px solid var(--gray);
+}
+.prod-details div button {
+  border: none;
+  outline: none;
+  padding: 8px 8px;
+  font-family: "Lora", serif;
+  color: var(--whiteColor);
+  background-color: var(--blueColor);
+  border: 2px solid var(--blueColor);
 }/*# sourceMappingURL=index.css.map */
