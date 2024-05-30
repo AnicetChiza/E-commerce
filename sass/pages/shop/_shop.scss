@@ -45,13 +45,12 @@
 
 //For all the simple and small images
 .main-prod {
-    display: grid;
+    display: flex;
     align-items: center;
-    justify-content: center;
-    grid-template-columns: auto auto;
 }
 
 .main-product {
+    margin-top: 120px;
     width: 75%;
     .main-image {
         width: 100%;
