@@ -42,3 +42,26 @@
         }
     }
 }
+
+//For all the simple and small images
+.s-prod {
+    padding: 130px 60px;
+}
+
+.main-product {
+    width: 30%;
+    .main-image {
+        width: 100%;
+        background-color: var(--gray);
+    }
+    .pro-images {
+        display: grid;
+        gap: 5px;
+        -webkit-column-gap: 5px;
+        grid-template-columns: auto auto auto auto;
+        .small-image {
+            width: 100%;
+            background-color: var(--gray);
+        }
+    }
+}
