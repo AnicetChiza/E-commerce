@@ -739,6 +739,52 @@ body {
     border-bottom-left-radius: 5px;
   }
 }
+.about {
+  width: 100%;
+  height: 50vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background: linear-gradient(to right, rgba(241, 241, 241, 0.7019607843) 0%, rgba(110, 110, 109, 0.5725490196) 100%), url(../../../images/home-page/about.jpg);
+  background-size: cover;
+  background-position: bottom;
+}
+.about div {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  text-align: center;
+  color: var(--whiteColor);
+  background-color: var(--blackOpacity);
+}
+.about div h1 {
+  font-size: 2.5rem;
+}
+
+.about-item {
+  display: grid;
+  grid-template-columns: 50% auto;
+  gap: 10px;
+  -webkit-column-gap: 10px;
+}
+.about-item h4 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  color: var(--blueColor);
+}
+.about-item p {
+  width: 80%;
+}
+.about-item img {
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+}
+
 .blog {
   width: 100%;
   height: 50vh;
@@ -839,6 +885,9 @@ body {
 }
 .pagination a:hover {
   background-color: var(--gold);
+}
+.pagination a img {
+  width: 100%;
 }
 
 .main-prod {
