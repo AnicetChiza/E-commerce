@@ -27,8 +27,11 @@
 
 .about-item {
     display: grid;
+    align-items: center;
+    margin: auto;
+    text-align: center;
+    margin-top: 30px;
     grid-template-columns: 50% auto;
-    //display: flex;
     gap: 10px;
     -webkit-column-gap: 10px;
     //align-items: center;
@@ -38,7 +41,7 @@
         color: var(--blueColor);
     }
     p {
-        width: 80%;
+        width: 100%;
     }
     img {
         width: 400px;
