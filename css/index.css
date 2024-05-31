@@ -764,6 +764,33 @@ body {
   font-size: 2.5rem;
 }
 
+.blog-items {
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+  gap: 60px;
+  -webkit-column-gap: 60px;
+}
+.blog-items h4 {
+  color: var(--blueColor);
+}
+.blog-items p {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.blog-items a {
+  width: fit-content;
+  display: flex;
+  margin-top: 20px;
+  padding: 10px 20px;
+  transition: 0.4s ease-in;
+  color: var(--whiteColor);
+  background: var(--blueColor);
+}
+.blog-items a:hover {
+  background-color: var(--gold);
+}
+
 .my-page {
   width: 100%;
   height: 50vh;
