@@ -1,13 +1,13 @@
 @use '../../utils/' as u;
 .my-page {
     width: 100%;
-    height: 70vh;
+    height: 50vh;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background: linear-gradient(to right, #f1f1f1b3 0%, #6e6e6d92 100%), url(../../../images/shop/shop-bg.jpg) no-repeat;
     background-size: cover;
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 80%);
+    //clip-path: polygon(0 0, 100% 0, 100% 100%, 0 80%);
     div {
         width: 100%;
         height: 100%;
