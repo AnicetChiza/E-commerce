@@ -30,6 +30,11 @@
     margin-top: 50px;
     gap: 60px;
     -webkit-column-gap: 60px;
+    span {
+        font-size: 0.8rem;
+        color: #9d9d9ded;
+        margin-bottom: 8px;
+    }
     h4 {
         color: var(--blueColor);
     }
@@ -48,13 +53,5 @@
         &:hover {
             background-color: var(--gold);
         }
-    }
-    h3 {
-        position: absolute;
-        top: 55%;
-        left: 8%;
-        z-index: -1;
-        font-size: 2.3rem;
-        color: #808080d2;
     }
 }
