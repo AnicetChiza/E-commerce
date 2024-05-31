@@ -790,6 +790,14 @@ body {
 .blog-items a:hover {
   background-color: var(--gold);
 }
+.blog-items h3 {
+  position: absolute;
+  top: 55%;
+  left: 8%;
+  z-index: -1;
+  font-size: 2.3rem;
+  color: rgba(128, 128, 128, 0.8235294118);
+}
 
 .my-page {
   width: 100%;
